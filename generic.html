@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Projects</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Projects</a></li>
+						<!-- <li><a href="elements.html">Elements</a></li> -->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">VCR Trivia</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<p>This was my first project working with HTML, CSS, and JavaScript. At the time, it was quite challenging. I had to learn how to navigate with multiple files, utilize fetch commands properly, and extract the information that i had just fetched so that my team and I could then place it onto the page.</p>
+							<p>My role in the project was almost exclusively implementing the JavaScript for our project. I called the fetch from our API, and coded the functions that we used to extract the JSON data that we had aquired. I was also incharge of shuffling up our answers before they were posted to the page.</p>
+							<p>Challenges faced on the project include:</p>
+							<p>Insuring that the answers were shuffled before being posted to the page.</p>
+							<ul>
+								<li>Inorder to overcome this, I first that to take the data that we had recieved from our fetch and extract the incorrect answers and correct answer. </li>
+								<li>I did this by storing the incorrect answers into an empty array that I then pushed the correct answer into.</li>
+								<li>Then I had to shuffle the answers array before they could then be posted.</li>
+								<li>To help me with this, I used the Fisher-Yates Shuffle function. I was extremely effective and saved us valuable time.</li>
+							</ul>
+							<p>Another issue I ran into was getting the change categories feature to work. It would allow users to select a difficulty as well as a topic for their triva game.</p>
+							<ul>
+								<li>I overcame the issues we had by learning about id vs class, and the "onchange" HTML element. The onchange element requires the use of an id, which was something that we hadn't yet learned about. After educating myself, I was able to use the knowledge that I had gained to solve our problem.</li> 
+							</ul>
+						</div>
+					</section>
+
+			</div>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">FreeBay</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<p>For this project, my team and I created a web based app that would allow users to buy and sell items unique to their account.</p>
+							<p>Challenges faced on the project include:</p>
+							<p>Since the app mostly used backend services (using create and retrieve functions to add to the database), we had to create the views, models, controllers, and routes that would define the entire user interaction. It meant learning how to navigate through all the various files and folders that we had, as well as being able to translate our SQL quearies into JavaScript functions. Those functions then needed to be translated into HTTP responses. It started to all become too much.</p>
+							<ul>
+								<li>We solved this by making sure that we meticulously adheared to our folder and file structuring, and that we tested the responsiveness of our database and website thoroughly before moving from quearies, to models, to controllers, to routers and forms.</li>
+							</ul>
+							<!-- <p></p>
+							<ul>
+								<li></li> 
+							</ul>						 -->
+						</div>
+					</section>
+
+			</div>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Dev-Depot</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<p>
+								This app was created to be a depository that junior developers, students, and even senior engineers could use as a baseline for streamlining their webpages. It has a series of templates that can be used to quickly create a model, controller, route, index, and HTML form. It also features some basic packages you might want in your package.json if you're using Node.js.
+							</p>
+							<p>
+								For this project, I was mainly working as the group leader. Since the idea was mine, the rest of the group thought that it would be better if I ran the show. For that purpose, I lead the whiteboarding of the project, the implamentation of key features, and the creation of our databases.
+							</p>
+							<p>Some of the challenges I faced were:</p>
+							<p>It was my first time really working as a supervisior. I didn't know how I would juggle helping my team with their own problems while working on my own all before our deadline.</p>
+							<ul>
+								<li>I knew that we were all working with code that we had next to no experience with. So, I went into the project with a series of smaller tasks that I passed onto my teammates. They inturn would then tackle the tasks that I had given them. After about a hour, we would meet back up and see how everyone was doing. During this time, we would see if anyone had any issues that they needed help with. We'd also come up with a rough estimate of how long it would take for everyone to finish their task. It seemed to work, and really prioritized communicate so that we could make sure that we were as efficient as possible</li>
+							</ul>
+							<p>When working on syncing the templates that we had with our webpage, we had to figure out a way of rendering the data to the page in a format that couldn't be manipulated by people looking to inject malware into our code.</p>
+							<ul>
+								<li>We ended up using a series of new technologies. The technologies we used included fileshare so that our app could read our template files and pyments to format the text that our fileshare displayed into a JavaScript format.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
